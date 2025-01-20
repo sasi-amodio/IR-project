@@ -3,7 +3,7 @@
 This project, developed for the Intelligent Robotics (IR) course at the university, implements an autonomous driving agent using reinforcement learning (RL) techniques within Unity's ML-Agents framework. The goal is to train the agent to navigate a racing track using machine learning algorithms, while avoiding collisions with walls or other agents.
 
 
-![alt text](image-2.png)
+![alt text](images/circuit.png)
 
 ## Project Overview
 
@@ -24,7 +24,7 @@ Key components of the project include:
 The agent uses a set of raycasting sensors to detect obstacles, other agents, and checkpoints. These sensors provide observations critical for decision-making during training.
 
 <div align="center">
-  <img src="image-1.png" alt="alt text" width="300"/>
+  <img src="images/carWithSensors.png" alt="alt text" width="300"/>
 </div>
 
 - **Red and Yellow Sensors**: Identify checkpoints to guide the agent’s direction.
