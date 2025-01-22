@@ -1,19 +1,19 @@
 # Autonomous Driving Agent with Reinforcement Learning
 
-This project, developed for the Intelligent Robotics (IR) course at the university, implements an autonomous driving agent using reinforcement learning (RL) techniques within Unity's ML-Agents framework. The goal is to train the agent to navigate a racing track using machine learning algorithms, while avoiding collisions with walls or other agents.
+This project, developed for the Intelligent Robotics (IR) course at the university, implements an autonomous driving agent using reinforcement learning (RL) techniques within Unity's ML-Agents framework. The goal is to train the agent to navigate a racing track using machine learning algorithms while avoiding collisions with walls or other agents.
 
 
 ![alt text](images/circuit.png)
 
 ## Project Overview
 
-The agent is based on a modular racing kit model, which allows for experimentation with complex movement mechanics. The task is non-competitive, where the primary goal is for the agent to complete the track, independent of other agents’ performances.
+The agent is based on a modular racing kit model, which allows for experimentation with complex movement mechanics. The task is non-competitive, and the primary goal is for the agent to complete the track independently of other agents’ performances.
 
 Key components of the project include:
 
 - **Environment Setup**: A Unity-based track for training the agent to complete the course.
 - **Agent Design**: A model incorporating control systems and sensor setups for collision avoidance and navigation.
-- **Reinforcement Learning**: Using RL algorithms to train the agent, with a focus on Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC) methods.
+- **Reinforcement Learning**: This involves using RL algorithms to train the agent, with a focus on Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC) methods.
 - **Sensor Integration**: Raycasting sensors for collision detection, guiding the agent’s movements with feedback to improve performance.
 
 
@@ -32,7 +32,7 @@ The agent uses a set of raycasting sensors to detect obstacles, other agents, an
 
 
 ### Reinforcement Learning
-The agent learns via the trial-and-error method, improving its driving performance based on feedback (rewards) received after each action. The goal is to maximize the cumulative reward over time.
+The agent learns via trial and error, improving its driving performance based on feedback (rewards) received after each action. The goal is to maximize the cumulative reward over time.
 
 ### Algorithms Used:
 - **PPO (Proximal Policy Optimization)**: Used to train the agent by optimizing its policy based on actions that maximize rewards.
@@ -52,23 +52,6 @@ The learning process is supported by deep neural networks that approximate the Q
 ## Results & Evaluation
 
 The two reinforcement learning algorithms (PPO and SAC) were compared based on performance metrics and generalization ability across different scenarios. The results are detailed in the corresponding sections of the project documentation.
-
-## Setup & Usage
-
-To run this project, follow these steps:
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/repo-name.git
-   ```
-
-2. Install the necessary dependencies for Unity and ML-Agents:
-- Unity Hub: Install Unity.
-- ML-Agents: Install ML-Agents.
-
-3. Open the Unity project and navigate to the scene with the autonomous driving agent.
-4. Run the scene to see the agent train and improve over time.
-Contributing
 
 ## Further Information 
 
